@@ -4,9 +4,9 @@ import argparse
 import subprocess
 
 parser = argparse.ArgumentParser(description='Customize the integration')
-parser.add_argument('-n', '--name', required=True, metavar='framework_name', type=str, help='Name of the framework.')
-parser.add_argument('-g', '--git', required=True, metavar='git_repo_URL', type=str, help='Repo URL.')
-parser.add_argument('-v', '--major', required=True, metavar='major_version_number', type=int, help='Major Version.')
+parser.add_argument('-n', '--name', required=True, metavar='framework_name', type=str, help='import name of the framework.')
+parser.add_argument('-g', '--git', required=True, metavar='git_repo_URL', type=str, help='git repository URL.')
+parser.add_argument('-v', '--major', required=True, metavar='major_version_number', type=int, help='major version number to be tested with Swift package manager.')
 
 args = parser.parse_args()
 
