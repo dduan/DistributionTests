@@ -24,12 +24,12 @@ ensure supports for them keep working throughout development.
     ./customize --name Just --git "https://github.com/JustHTTP/Just.git" --major 0
     ```
 3. Run `make`. This will build projects for each aforementioned package
-   manager by fetching the library and import it in various platforms that
+   manager by fetching the library and import it for various platforms that
    Xcode/Swift supports. There's a make command for each package
    manager/platform combination as well. For example, you can run `make
    test-integration-carthage-tvOS`.
-4. Make this part of your library is continuous integration. Do step 1-3 as
-   part of continues integration script. Better yet, include it as part of
+4. Make this part of your library's continuous integration. Do step 1-3 as
+   part of continoues integration script. Better yet, include it as part of
    your library structure. The *make* commands are going to be handy.
 
 ## Does it work for your library?
