@@ -1,7 +1,7 @@
 ## What is this?
 
 Each Swift project in this repository uses a different package manager to
-satify dependency on the same library. A sucessful build of a project
+satisfy dependency on the same library. A successful build of a project
 indicates the library's support for the manager is working.
 
 A *Makefile* is included to help automate the building process.
@@ -28,7 +28,7 @@ ensure supports for them keep working throughout development.
    Xcode/Swift supports. There's a make command for each package
    manager/platform combination as well. For example, you can run `make
    test-integration-carthage-tvOS`.
-4. Make this part of your library is continous integration. Do step 1-3 as
+4. Make this part of your library is continuous integration. Do step 1-3 as
    part of continues integration script. Better yet, include it as part of
    your library structure. The *make* commands are going to be handy.
 
@@ -43,7 +43,7 @@ won't work.
 Out of the box, all three package managers (Cocoapods, Carthage, Swift Package
 Manager) and four platforms (iOS, macOS, watchOS, tvOS) are tested.
 
-Swift package manager projects tests agaist a major version number.
+Swift package manager projects tests against a major version number.
 
 If your library can't fit in any of these assumptions, update it, or manually
 edit content of projects here for your needs (don't forget to update the
