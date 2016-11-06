@@ -9,7 +9,7 @@ A *Makefile* is included to help automate the building process.
 ## Who can benefit from this?
 
 Author of an open-source Swift 3 library. The library is distributed with any
-combination of Cocoapods, Carthage and Swift Package Manager. They want to
+combination of CocoaPods, Carthage and Swift Package Manager. They want to
 ensure supports for them keep working throughout development.
 
 ## How does it work?
@@ -40,7 +40,7 @@ a consistent name for the framework file (`Just`.framework) and import symbol
 build`Just-tvOS.framework` but user writes `import Just` in their code, that
 won't work.
 
-Out of the box, all three package managers (Cocoapods, Carthage, Swift Package
+Out of the box, all three package managers (CocoaPods, Carthage, Swift Package
 Manager) and four platforms (iOS, macOS, watchOS, tvOS) are tested.
 
 Swift package manager projects tests against a major version number.
