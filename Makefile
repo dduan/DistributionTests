@@ -20,7 +20,7 @@ test-integration-cocoapods-iOS:
 		xcodebuild \
 		-workspace Example.xcworkspace \
 		-scheme Example-iOS \
-		-destination "name=iPhone 6s" \
+		-destination "name=iPhone 7" \
 		| xcpretty -ct
 
 test-integration-cocoapods-macOS:
@@ -39,7 +39,7 @@ test-integration-cocoapods-watchOS:
 		xcodebuild \
 		-workspace Example.xcworkspace \
 		-scheme Example-watchOS \
-		-destination "name=iPhone 6s" \
+		-destination "name=iPhone 7" \
 		| xcpretty -ct
 
 test-integration-cocoapods-tvOS:
@@ -65,7 +65,7 @@ test-integration-carthage-iOS:
 		xcodebuild \
 		-project Example.xcodeproj \
 		-scheme Example-iOS \
-		-destination "name=iPhone 6s" \
+		-destination "name=iPhone 7" \
 		| xcpretty -ct
 
 test-integration-carthage-macOS:
