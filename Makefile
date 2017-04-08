@@ -39,7 +39,7 @@ test-integration-cocoapods-watchOS:
 		xcodebuild \
 		-workspace Example.xcworkspace \
 		-scheme Example-watchOS \
-		-destination "name=iPhone 6" \
+		-destination "name=iPhone 6s" \
 		| xcpretty -ct
 
 test-integration-cocoapods-tvOS:
@@ -84,7 +84,7 @@ test-integration-carthage-watchOS:
 		xcodebuild \
 		-project Example.xcodeproj \
 		-scheme Example-watchOS \
-		-destination "name=iPhone 6" \
+		-destination "name=iPhone 6s" \
 		| xcpretty -ct
 
 test-integration-carthage-tvOS:
