@@ -102,4 +102,4 @@ clean:
 	rm -rf Carthage/Cartfile.resolved
 	rm -rf Cocoapods/Pods
 	rm -rf Cocoapods/Podfile.lock
-	cd SPM && swift build --clean
+	cd SPM && rm -rf .build
